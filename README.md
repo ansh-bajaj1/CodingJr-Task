@@ -63,16 +63,3 @@ if (!formData.email.trim() || !/^\S+@\S+\.\S+$/.test(formData.email)) {
   isValid = false;
 }
 
-## Installation and Running
-Clone the repo
-
-Run npm install or yarn to install dependencies
-
-Run npm start or yarn start to start the development server
-
-Access the form via /dashboard/add route
-
-## Future Improvements
-Add more detailed field validations (e.g., zipcode formats per country).
-
-Save partial form state to local storage to prevent data loss.
